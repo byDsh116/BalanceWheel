@@ -1,3 +1,57 @@
-body{
+html,body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(68, 72, 95);
+    height: 100pc;
+    width: 100pc;
+    margin: 0;
+    padding: 0;
+}
+
+.root {
+width: 50pc;
+height: 50pc;
+display: flex;
+margin: 0;
+padding: 0;
+}
+
+.view-component-div{
+width:23pc ;
+height: 23pc;
+background-color: rgb(155, 147, 172);
+
+}
+
+.left-side-menu-div{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    background-color: rgb(117, 116, 119);
+}
+
+
+.menu-button {
+background-color: rgb(223, 207, 187);
+border-color: rgb(80, 26, 124);
+border-width: 1px;
+color: rgb(43, 35, 75);
+border-radius: 4px;
+height: 3pc;
+font-size: 18px;
+margin-bottom: 3px;
+margin-top: 3px;
+}
+
+.statistic-button {
+    background-color: rgb(176, 152, 179);
+    height: 3pc;
+    font-weight: bold; 
+}
+
+.menu-button:hover {
+background-color: rgb(200, 192, 214)
+
 }
